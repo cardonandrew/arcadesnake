@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kill Yoda</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="app.js"></script>
+    
+
+</head>
+<body>
+
+    <header id="header">Score: 1 </header>
+    <div id="game-board" style="display:none">
+        </div>
+        <footer></footer>
+
+
+    <video playsinline autoplay muted loop poster id="myVideo">
+        <source src="dancingyoda.mp4" type="video/mp4">
+      </video>
+    <div id="start">
+        <video playsinline autoplay muted loop poster id="myVideo">
+            <source src="dancingyoda.mp4" type="video/mp4">
+          </video>
+        <img src="kill.png" alt="kill">
+        <img src="yoda.png" alt="yoda">
+        <br>
+        <div class="hardness" id="easy">EASY</div>
+        <br>
+        <div class="hardness" id="medium">MEDIUM</div>
+        <br>
+        <div class="hardness" id="hard">HARD</div>
+        <br>
+        <br>
+        <br>
+
+
+       <button id="start_button">JOIN THE DARK SIDE</button>
+       <br>
+       <audio id="mainsong" src="starwars.mp3" ></audio>
+       <script type="text/javascript">window.onload=function(){
+        document.getElementById("mainsong").play();}</script>
+
+    </div>
+
+
+       
+</body>
+</html>
